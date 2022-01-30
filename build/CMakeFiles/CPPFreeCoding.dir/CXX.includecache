@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dawid/Projects/C_C++/CppFreeCoding/include/tasks.h
+string
+-
+bits/stdc++.h
+-
+
+/home/dawid/Projects/C_C++/CppFreeCoding/src/tasks.cpp
+../include/tasks.h
+/home/dawid/Projects/C_C++/CppFreeCoding/include/tasks.h
+algorithm
+-
+
