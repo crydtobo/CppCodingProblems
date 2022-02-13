@@ -231,6 +231,33 @@ src/tasks.cpp.s:
 	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.s
 .PHONY : src/tasks.cpp.s
 
+src/tree.o: src/tree.cpp.o
+
+.PHONY : src/tree.o
+
+# target to build an object file
+src/tree.cpp.o:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o
+.PHONY : src/tree.cpp.o
+
+src/tree.i: src/tree.cpp.i
+
+.PHONY : src/tree.i
+
+# target to preprocess a source file
+src/tree.cpp.i:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.i
+.PHONY : src/tree.cpp.i
+
+src/tree.s: src/tree.cpp.s
+
+.PHONY : src/tree.s
+
+# target to generate assembly for a file
+src/tree.cpp.s:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.s
+.PHONY : src/tree.cpp.s
+
 tests/test.o: tests/test.cpp.o
 
 .PHONY : tests/test.o
@@ -279,6 +306,9 @@ help:
 	@echo "... src/tasks.o"
 	@echo "... src/tasks.i"
 	@echo "... src/tasks.s"
+	@echo "... src/tree.o"
+	@echo "... src/tree.i"
+	@echo "... src/tree.s"
 	@echo "... tests/test.o"
 	@echo "... tests/test.i"
 	@echo "... tests/test.s"

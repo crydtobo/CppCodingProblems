@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dawid/Projects/C_C++/CppFreeCoding/src/functions.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o"
   "/home/dawid/Projects/C_C++/CppFreeCoding/src/myUniquePtr.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o"
   "/home/dawid/Projects/C_C++/CppFreeCoding/src/tasks.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o"
+  "/home/dawid/Projects/C_C++/CppFreeCoding/src/tree.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o"
   "/home/dawid/Projects/C_C++/CppFreeCoding/tests/test.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -15,6 +15,7 @@ SET(SRC
         src/tasks.cpp
         src/functions.cpp
         src/myUniquePtr.cpp
+        src/tree.cpp
         tests/test.cpp
         )
 SET(GTEST_Files 

@@ -1,4 +1,6 @@
 #pragma once
+#include <string>
+#include <map>
 
 //zadanie 23
 /*
@@ -18,3 +20,5 @@ str1: "alamadwakoty"
 str2: "makotaala"
 ➡ False
 */
+
+bool isTheSameSetOfCharacters(const std::string &str1, const std::string &str2);

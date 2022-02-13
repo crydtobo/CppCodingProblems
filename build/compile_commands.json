@@ -21,6 +21,11 @@
 },
 {
   "directory": "/home/dawid/Projects/C_C++/CppFreeCoding/build",
+  "command": "/bin/c++   -I/home/dawid/Projects/C_C++/CppFreeCoding/include   -O0 -g -g   -std=gnu++17 -o CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o -c /home/dawid/Projects/C_C++/CppFreeCoding/src/tree.cpp",
+  "file": "/home/dawid/Projects/C_C++/CppFreeCoding/src/tree.cpp"
+},
+{
+  "directory": "/home/dawid/Projects/C_C++/CppFreeCoding/build",
   "command": "/bin/c++   -I/home/dawid/Projects/C_C++/CppFreeCoding/include   -O0 -g -g   -std=gnu++17 -o CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o -c /home/dawid/Projects/C_C++/CppFreeCoding/tests/test.cpp",
   "file": "/home/dawid/Projects/C_C++/CppFreeCoding/tests/test.cpp"
 }
