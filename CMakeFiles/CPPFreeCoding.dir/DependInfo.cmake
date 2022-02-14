@@ -4,12 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dawid/Projects/C_C++/CppFreeCoding/main.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/main.cpp.o"
-  "/home/dawid/Projects/C_C++/CppFreeCoding/src/functions.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o"
-  "/home/dawid/Projects/C_C++/CppFreeCoding/src/myUniquePtr.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o"
-  "/home/dawid/Projects/C_C++/CppFreeCoding/src/tasks.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o"
-  "/home/dawid/Projects/C_C++/CppFreeCoding/src/tree.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o"
-  "/home/dawid/Projects/C_C++/CppFreeCoding/tests/test.cpp" "/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o"
+  "/home/dawid/newBranchCppCoding/CppCodingProblems/main.cpp" "/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/CPPFreeCoding.dir/main.cpp.o"
+  "/home/dawid/newBranchCppCoding/CppCodingProblems/src/functions.cpp" "/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o"
+  "/home/dawid/newBranchCppCoding/CppCodingProblems/src/myArray.cpp" "/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.o"
+  "/home/dawid/newBranchCppCoding/CppCodingProblems/src/myLinkedList.cpp" "/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.o"
+  "/home/dawid/newBranchCppCoding/CppCodingProblems/src/myTree.cpp" "/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.o"
+  "/home/dawid/newBranchCppCoding/CppCodingProblems/src/myUniquePtr.cpp" "/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o"
+  "/home/dawid/newBranchCppCoding/CppCodingProblems/src/myVector.cpp" "/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.o"
+  "/home/dawid/newBranchCppCoding/CppCodingProblems/src/tasks.cpp" "/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o"
+  "/home/dawid/newBranchCppCoding/CppCodingProblems/tests/test.cpp" "/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

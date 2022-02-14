@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dawid/Projects/C_C++/CppFreeCoding
+CMAKE_SOURCE_DIR = /home/dawid/newBranchCppCoding/CppCodingProblems
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dawid/Projects/C_C++/CppFreeCoding
+CMAKE_BINARY_DIR = /home/dawid/newBranchCppCoding/CppCodingProblems
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CPPFreeCoding.dir/depend.make
@@ -59,81 +59,120 @@ include CMakeFiles/CPPFreeCoding.dir/flags.make
 
 CMakeFiles/CPPFreeCoding.dir/main.cpp.o: CMakeFiles/CPPFreeCoding.dir/flags.make
 CMakeFiles/CPPFreeCoding.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPPFreeCoding.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/main.cpp.o -c /home/dawid/Projects/C_C++/CppFreeCoding/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPPFreeCoding.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/main.cpp.o -c /home/dawid/newBranchCppCoding/CppCodingProblems/main.cpp
 
 CMakeFiles/CPPFreeCoding.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPFreeCoding.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/Projects/C_C++/CppFreeCoding/main.cpp > CMakeFiles/CPPFreeCoding.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/newBranchCppCoding/CppCodingProblems/main.cpp > CMakeFiles/CPPFreeCoding.dir/main.cpp.i
 
 CMakeFiles/CPPFreeCoding.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPFreeCoding.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/Projects/C_C++/CppFreeCoding/main.cpp -o CMakeFiles/CPPFreeCoding.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/newBranchCppCoding/CppCodingProblems/main.cpp -o CMakeFiles/CPPFreeCoding.dir/main.cpp.s
 
 CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o: CMakeFiles/CPPFreeCoding.dir/flags.make
 CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o: src/tasks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o -c /home/dawid/Projects/C_C++/CppFreeCoding/src/tasks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o -c /home/dawid/newBranchCppCoding/CppCodingProblems/src/tasks.cpp
 
 CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/Projects/C_C++/CppFreeCoding/src/tasks.cpp > CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/newBranchCppCoding/CppCodingProblems/src/tasks.cpp > CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.i
 
 CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/Projects/C_C++/CppFreeCoding/src/tasks.cpp -o CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/newBranchCppCoding/CppCodingProblems/src/tasks.cpp -o CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.s
 
 CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o: CMakeFiles/CPPFreeCoding.dir/flags.make
 CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o: src/functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o -c /home/dawid/Projects/C_C++/CppFreeCoding/src/functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o -c /home/dawid/newBranchCppCoding/CppCodingProblems/src/functions.cpp
 
 CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/Projects/C_C++/CppFreeCoding/src/functions.cpp > CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/newBranchCppCoding/CppCodingProblems/src/functions.cpp > CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.i
 
 CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/Projects/C_C++/CppFreeCoding/src/functions.cpp -o CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/newBranchCppCoding/CppCodingProblems/src/functions.cpp -o CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.s
 
 CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o: CMakeFiles/CPPFreeCoding.dir/flags.make
 CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o: src/myUniquePtr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o -c /home/dawid/Projects/C_C++/CppFreeCoding/src/myUniquePtr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o -c /home/dawid/newBranchCppCoding/CppCodingProblems/src/myUniquePtr.cpp
 
 CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/Projects/C_C++/CppFreeCoding/src/myUniquePtr.cpp > CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/newBranchCppCoding/CppCodingProblems/src/myUniquePtr.cpp > CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.i
 
 CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/Projects/C_C++/CppFreeCoding/src/myUniquePtr.cpp -o CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/newBranchCppCoding/CppCodingProblems/src/myUniquePtr.cpp -o CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.s
 
-CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o: CMakeFiles/CPPFreeCoding.dir/flags.make
-CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o: src/tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o -c /home/dawid/Projects/C_C++/CppFreeCoding/src/tree.cpp
+CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.o: CMakeFiles/CPPFreeCoding.dir/flags.make
+CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.o: src/myVector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.o -c /home/dawid/newBranchCppCoding/CppCodingProblems/src/myVector.cpp
 
-CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/Projects/C_C++/CppFreeCoding/src/tree.cpp > CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.i
+CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/newBranchCppCoding/CppCodingProblems/src/myVector.cpp > CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.i
 
-CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/Projects/C_C++/CppFreeCoding/src/tree.cpp -o CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.s
+CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/newBranchCppCoding/CppCodingProblems/src/myVector.cpp -o CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.s
+
+CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.o: CMakeFiles/CPPFreeCoding.dir/flags.make
+CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.o: src/myArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.o -c /home/dawid/newBranchCppCoding/CppCodingProblems/src/myArray.cpp
+
+CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/newBranchCppCoding/CppCodingProblems/src/myArray.cpp > CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.i
+
+CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/newBranchCppCoding/CppCodingProblems/src/myArray.cpp -o CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.s
+
+CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.o: CMakeFiles/CPPFreeCoding.dir/flags.make
+CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.o: src/myLinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.o -c /home/dawid/newBranchCppCoding/CppCodingProblems/src/myLinkedList.cpp
+
+CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/newBranchCppCoding/CppCodingProblems/src/myLinkedList.cpp > CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.i
+
+CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/newBranchCppCoding/CppCodingProblems/src/myLinkedList.cpp -o CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.s
+
+CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.o: CMakeFiles/CPPFreeCoding.dir/flags.make
+CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.o: src/myTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.o -c /home/dawid/newBranchCppCoding/CppCodingProblems/src/myTree.cpp
+
+CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/newBranchCppCoding/CppCodingProblems/src/myTree.cpp > CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.i
+
+CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/newBranchCppCoding/CppCodingProblems/src/myTree.cpp -o CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.s
 
 CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o: CMakeFiles/CPPFreeCoding.dir/flags.make
 CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o: tests/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o -c /home/dawid/Projects/C_C++/CppFreeCoding/tests/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o -c /home/dawid/newBranchCppCoding/CppCodingProblems/tests/test.cpp
 
 CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/Projects/C_C++/CppFreeCoding/tests/test.cpp > CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dawid/newBranchCppCoding/CppCodingProblems/tests/test.cpp > CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.i
 
 CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/Projects/C_C++/CppFreeCoding/tests/test.cpp -o CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dawid/newBranchCppCoding/CppCodingProblems/tests/test.cpp -o CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.s
 
 # Object files for target CPPFreeCoding
 CPPFreeCoding_OBJECTS = \
@@ -141,7 +180,10 @@ CPPFreeCoding_OBJECTS = \
 "CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o" \
 "CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o" \
 "CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o" \
-"CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o" \
+"CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.o" \
+"CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.o" \
+"CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.o" \
+"CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.o" \
 "CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o"
 
 # External object files for target CPPFreeCoding
@@ -151,11 +193,14 @@ CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/main.cpp.o
 CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.o
 CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o
 CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.o
-CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o
+CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.o
+CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.o
+CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.o
+CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.o
 CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/tests/test.cpp.o
 CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/build.make
 CPPFreeCoding: CMakeFiles/CPPFreeCoding.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CPPFreeCoding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable CPPFreeCoding"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPPFreeCoding.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +213,6 @@ CMakeFiles/CPPFreeCoding.dir/clean:
 .PHONY : CMakeFiles/CPPFreeCoding.dir/clean
 
 CMakeFiles/CPPFreeCoding.dir/depend:
-	cd /home/dawid/Projects/C_C++/CppFreeCoding && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawid/Projects/C_C++/CppFreeCoding /home/dawid/Projects/C_C++/CppFreeCoding /home/dawid/Projects/C_C++/CppFreeCoding /home/dawid/Projects/C_C++/CppFreeCoding /home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/CPPFreeCoding.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dawid/newBranchCppCoding/CppCodingProblems && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dawid/newBranchCppCoding/CppCodingProblems /home/dawid/newBranchCppCoding/CppCodingProblems /home/dawid/newBranchCppCoding/CppCodingProblems /home/dawid/newBranchCppCoding/CppCodingProblems /home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/CPPFreeCoding.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CPPFreeCoding.dir/depend
 

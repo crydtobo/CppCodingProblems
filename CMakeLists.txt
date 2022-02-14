@@ -15,7 +15,10 @@ SET(SRC
         src/tasks.cpp
         src/functions.cpp
         src/myUniquePtr.cpp
-        src/tree.cpp
+        src/myVector.cpp
+        src/myArray.cpp
+        src/myLinkedList.cpp
+        src/myTree.cpp
         tests/test.cpp
         )
 SET(GTEST_Files 

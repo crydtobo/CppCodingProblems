@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dawid/Projects/C_C++/CppFreeCoding
+CMAKE_SOURCE_DIR = /home/dawid/newBranchCppCoding/CppCodingProblems
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dawid/Projects/C_C++/CppFreeCoding
+CMAKE_BINARY_DIR = /home/dawid/newBranchCppCoding/CppCodingProblems
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles /home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles /home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dawid/Projects/C_C++/CppFreeCoding/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dawid/newBranchCppCoding/CppCodingProblems/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,87 @@ src/functions.cpp.s:
 	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.s
 .PHONY : src/functions.cpp.s
 
+src/myArray.o: src/myArray.cpp.o
+
+.PHONY : src/myArray.o
+
+# target to build an object file
+src/myArray.cpp.o:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.o
+.PHONY : src/myArray.cpp.o
+
+src/myArray.i: src/myArray.cpp.i
+
+.PHONY : src/myArray.i
+
+# target to preprocess a source file
+src/myArray.cpp.i:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.i
+.PHONY : src/myArray.cpp.i
+
+src/myArray.s: src/myArray.cpp.s
+
+.PHONY : src/myArray.s
+
+# target to generate assembly for a file
+src/myArray.cpp.s:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.s
+.PHONY : src/myArray.cpp.s
+
+src/myLinkedList.o: src/myLinkedList.cpp.o
+
+.PHONY : src/myLinkedList.o
+
+# target to build an object file
+src/myLinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.o
+.PHONY : src/myLinkedList.cpp.o
+
+src/myLinkedList.i: src/myLinkedList.cpp.i
+
+.PHONY : src/myLinkedList.i
+
+# target to preprocess a source file
+src/myLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.i
+.PHONY : src/myLinkedList.cpp.i
+
+src/myLinkedList.s: src/myLinkedList.cpp.s
+
+.PHONY : src/myLinkedList.s
+
+# target to generate assembly for a file
+src/myLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.s
+.PHONY : src/myLinkedList.cpp.s
+
+src/myTree.o: src/myTree.cpp.o
+
+.PHONY : src/myTree.o
+
+# target to build an object file
+src/myTree.cpp.o:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.o
+.PHONY : src/myTree.cpp.o
+
+src/myTree.i: src/myTree.cpp.i
+
+.PHONY : src/myTree.i
+
+# target to preprocess a source file
+src/myTree.cpp.i:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.i
+.PHONY : src/myTree.cpp.i
+
+src/myTree.s: src/myTree.cpp.s
+
+.PHONY : src/myTree.s
+
+# target to generate assembly for a file
+src/myTree.cpp.s:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.s
+.PHONY : src/myTree.cpp.s
+
 src/myUniquePtr.o: src/myUniquePtr.cpp.o
 
 .PHONY : src/myUniquePtr.o
@@ -204,6 +285,33 @@ src/myUniquePtr.cpp.s:
 	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myUniquePtr.cpp.s
 .PHONY : src/myUniquePtr.cpp.s
 
+src/myVector.o: src/myVector.cpp.o
+
+.PHONY : src/myVector.o
+
+# target to build an object file
+src/myVector.cpp.o:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.o
+.PHONY : src/myVector.cpp.o
+
+src/myVector.i: src/myVector.cpp.i
+
+.PHONY : src/myVector.i
+
+# target to preprocess a source file
+src/myVector.cpp.i:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.i
+.PHONY : src/myVector.cpp.i
+
+src/myVector.s: src/myVector.cpp.s
+
+.PHONY : src/myVector.s
+
+# target to generate assembly for a file
+src/myVector.cpp.s:
+	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/myVector.cpp.s
+.PHONY : src/myVector.cpp.s
+
 src/tasks.o: src/tasks.cpp.o
 
 .PHONY : src/tasks.o
@@ -230,33 +338,6 @@ src/tasks.s: src/tasks.cpp.s
 src/tasks.cpp.s:
 	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/tasks.cpp.s
 .PHONY : src/tasks.cpp.s
-
-src/tree.o: src/tree.cpp.o
-
-.PHONY : src/tree.o
-
-# target to build an object file
-src/tree.cpp.o:
-	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.o
-.PHONY : src/tree.cpp.o
-
-src/tree.i: src/tree.cpp.i
-
-.PHONY : src/tree.i
-
-# target to preprocess a source file
-src/tree.cpp.i:
-	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.i
-.PHONY : src/tree.cpp.i
-
-src/tree.s: src/tree.cpp.s
-
-.PHONY : src/tree.s
-
-# target to generate assembly for a file
-src/tree.cpp.s:
-	$(MAKE) -f CMakeFiles/CPPFreeCoding.dir/build.make CMakeFiles/CPPFreeCoding.dir/src/tree.cpp.s
-.PHONY : src/tree.cpp.s
 
 tests/test.o: tests/test.cpp.o
 
@@ -300,15 +381,24 @@ help:
 	@echo "... src/functions.o"
 	@echo "... src/functions.i"
 	@echo "... src/functions.s"
+	@echo "... src/myArray.o"
+	@echo "... src/myArray.i"
+	@echo "... src/myArray.s"
+	@echo "... src/myLinkedList.o"
+	@echo "... src/myLinkedList.i"
+	@echo "... src/myLinkedList.s"
+	@echo "... src/myTree.o"
+	@echo "... src/myTree.i"
+	@echo "... src/myTree.s"
 	@echo "... src/myUniquePtr.o"
 	@echo "... src/myUniquePtr.i"
 	@echo "... src/myUniquePtr.s"
+	@echo "... src/myVector.o"
+	@echo "... src/myVector.i"
+	@echo "... src/myVector.s"
 	@echo "... src/tasks.o"
 	@echo "... src/tasks.i"
 	@echo "... src/tasks.s"
-	@echo "... src/tree.o"
-	@echo "... src/tree.i"
-	@echo "... src/tree.s"
 	@echo "... tests/test.o"
 	@echo "... tests/test.i"
 	@echo "... tests/test.s"

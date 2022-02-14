@@ -37,14 +37,18 @@ public:
         return search(root, value);
     }
 
-    int highTree(Node *node){
-        if(node != nullptr){
+    int highTree(Node *node)
+    {
+        if (node != nullptr)
+        {
             int leftDepth = height(node->left);
             int rightDepth = height(node->right);
-            if(leftDepth < rightDepth){
+            if (leftDepth < rightDepth)
+            {
                 return rightDepth + 1;
             }
-            else{
+            else
+            {
                 return leftDepth + 1;
             }
         }

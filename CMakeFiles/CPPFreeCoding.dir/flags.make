@@ -6,5 +6,5 @@ CXX_FLAGS =  -O0 -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dawid/Projects/C_C++/CppFreeCoding/include 
+CXX_INCLUDES = -I/home/dawid/newBranchCppCoding/CppCodingProblems/include 
 

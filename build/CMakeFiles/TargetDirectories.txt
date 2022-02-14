@@ -1,3 +1,0 @@
-/home/dawid/Projects/C_C++/CppFreeCoding/build/CMakeFiles/rebuild_cache.dir
-/home/dawid/Projects/C_C++/CppFreeCoding/build/CMakeFiles/edit_cache.dir
-/home/dawid/Projects/C_C++/CppFreeCoding/build/CMakeFiles/CPPFreeCoding.dir
