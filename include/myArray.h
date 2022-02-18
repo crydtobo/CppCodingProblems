@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+
 // stack allocation array -> int array[5];
 // heap allocation -> int *heapArray = new int [5];
 // delete heapArray -> i can do this int *heapArray = new  int [size]

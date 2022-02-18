@@ -41,9 +41,9 @@ public:
     {
         if (node != nullptr)
         {
-            int leftDepth = height(node->left);
-            int rightDepth = height(node->right);
-            if (leftDepth < rightDepth)
+            int leftDepth = highTree(node->left);
+            int rightDepth = highTree(node->right);
+            if (leftDepth <= rightDepth)
             {
                 return rightDepth + 1;
             }

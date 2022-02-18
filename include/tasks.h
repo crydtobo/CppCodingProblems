@@ -39,6 +39,20 @@ struct S<0>
 std::string convertIntToBinaryString(const int &number);
 std::string convertIntToBinaryStringBitset(const int &number);
 
+// zadanie 45
+/*
+Napisz funkcję, która zastępuje wszystkie spacje w podanym std::stringu znakami ‘%20’.
+Możesz założyć dostępność nieograniczonego miejsca po modyfikacji std::string.
+
+W inpucie funkcji jest podany string i długość wyjściowego std::string ('%20' - liczymy jako jeden znak).
+Zastąpienie spacji powinno wystąpić tylko w środku std::string, a w momencie wystąpienia więcej niż jednej spacji, wrzucamy tylko jedno zastąpienie.
+
+Przykład:
+Input: "To jest  tekst  ", 13
+Output: "To%20Jest%20tekst"
+*/
+std::string changeSpaceToPercent20(const std::string &str, size_t length);
+
 // zadanie 42
 void adressesAndPointer();
 
@@ -74,3 +88,12 @@ uint8_t setBit(uint8_t number, int index, int valueOfBit);
 //  odwroc c-string'a void reverse(char *c)
 
 void reverse(char *cstringArg);
+
+// zadanie 41
+// Pomnóż dwie liczby, nie używając do tego znaku mnożenia!
+int multiply(const int &a, const int &b);
+
+// zadanie 39
+// Zaimplementuj swoją wersję algorytmu sortującego merge-sort.
+std::vector<int> mergeSort(const std::vector<int> &arrayToSort);
+std::vector<int> merge(const std::vector<int> &left, const std::vector<int> &right);

@@ -118,3 +118,63 @@ void reverse(char *cstringArg)
         str[strLength] = *(cstringArg++);
     }
 }
+
+std::string changeSpaceToPercent20(const std::string &str, size_t length)
+{
+    int i = 0;
+    size_t end = 0;
+    std::string result;
+    while (end < length)
+    {
+        if (str[i] == ' ')
+        {
+            while (str[i] == ' ')
+                i++;
+            result.push_back('%');
+            result.push_back('2');
+            result.push_back('0');
+        }
+        else
+        {
+            result.push_back(str[i]);
+            i++;
+        }
+        end++;
+    }
+    return result;
+}
+
+int multiply(const int &a, const int &b)
+{
+    int mul = 0;
+    int n = a;
+    int m = b;
+    while (n > 0)
+    {
+        if (n % 2 != 0) // niepatrzyste
+            mul += m;
+        m = m << 1;
+        n = n >> 1;
+    }
+    return mul;
+}
+
+std::vector<int> mergeSort(const std::vector<int> &arrayToSort)
+{
+    if (arrayToSort.size() <= 1)
+    {
+        return arrayToSort;
+    }
+
+    size_t middle = arrayToSort.size() / 2;
+    std::vector<int> left(arrayToSort.begin(), arrayToSort.begin() + middle);
+    std::vector<int> right(arrayToSort.begin() + middle, arrayToSort.end());
+
+    return merge(mergeSort(left), mergeSort(right));
+}
+
+std::vector<int> merge(const std::vector<int> &left, const std::vector<int> &right)
+{
+    std::vector<int> result;
+    return result;
+}

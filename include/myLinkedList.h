@@ -138,10 +138,33 @@ public:
         }
     }
 
-    //~MyLinkedList(){
-    // delete head;
-    // delete tail;
-    //}
+    void deleteValue(const int &value)
+    {
+        if (!head)
+        {
+            throw std::runtime_error("Pusta Lista");
+        }
+        Node *tmp = head;
+        Node *deleteVal = new Node;
+        while (tmp->next)
+        {
+            if (head->val == value)
+            {
+                head = head->next;
+            }
+            else
+            {
+                deleteVal = tmp;
+                tmp = tmp->next;
+                if (tmp->val == value)
+                {
+                    deleteVal->next = tmp->next;
+                    tmp = nullptr;
+                    delete tmp;
+                }
+            }
+        }
+    }
 
 private:
     Node *head;

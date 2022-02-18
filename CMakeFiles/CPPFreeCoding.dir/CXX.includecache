@@ -6,35 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myArray.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myArray.h
 iostream
 -
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myGraph.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myGraph.h
 iostream
 -
 vector
 -
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myLinkedList.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myLinkedList.h
 iostream
 -
 string
 -
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myTree.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myTree.h
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myUniquePtr.h
-iostream
--
-
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myVector.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myVector.h
 iostream
 -
 exception
 -
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/tasks.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/tasks.h
 string
 -
 iostream
@@ -50,67 +46,45 @@ bitset
 bits/stdc++.h
 -
 zadanie23.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/zadanie23.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/zadanie23.h
 zadanie24.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/zadanie24.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/zadanie24.h
 zadanie25.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/zadanie25.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/zadanie25.h
 myTree.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myTree.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myTree.h
 myVector.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myVector.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myVector.h
 myArray.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myArray.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myArray.h
 myLinkedList.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myLinkedList.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myLinkedList.h
 myGraph.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myGraph.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myGraph.h
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/zadanie23.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/zadanie23.h
 string
 -
 map
 -
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/zadanie24.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/zadanie24.h
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/zadanie25.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/zadanie25.h
 iostream
 -
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/main.cpp
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/main.cpp
 iostream
 -
 include/tasks.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/tasks.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/tasks.h
 
-/home/dawid/newBranchCppCoding/CppCodingProblems/src/functions.cpp
-
-/home/dawid/newBranchCppCoding/CppCodingProblems/src/myArray.cpp
-../include/myArray.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myArray.h
-
-/home/dawid/newBranchCppCoding/CppCodingProblems/src/myLinkedList.cpp
-
-/home/dawid/newBranchCppCoding/CppCodingProblems/src/myTree.cpp
-../include/myTree.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myTree.h
-
-/home/dawid/newBranchCppCoding/CppCodingProblems/src/myUniquePtr.cpp
-../include/myUniquePtr.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myUniquePtr.h
-
-/home/dawid/newBranchCppCoding/CppCodingProblems/src/myVector.cpp
-../include/myVector.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/myVector.h
-
-/home/dawid/newBranchCppCoding/CppCodingProblems/src/tasks.cpp
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/src/tasks.cpp
 ../include/tasks.h
-/home/dawid/newBranchCppCoding/CppCodingProblems/include/tasks.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/tasks.h
 algorithm
 -
 cstring
 -
-
-/home/dawid/newBranchCppCoding/CppCodingProblems/tests/test.cpp
 
