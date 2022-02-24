@@ -80,6 +80,10 @@ iostream
 include/tasks.h
 /home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/tasks.h
 
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/src/myLinkedList.cpp
+../include/myLinkedList.h
+/home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/myLinkedList.h
+
 /home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/src/tasks.cpp
 ../include/tasks.h
 /home/dawid/DawidPracitce/newBranchCppCoding/CppCodingProblems/include/tasks.h

@@ -166,6 +166,8 @@ public:
         }
     }
 
+    Node *reverse(Node *node);
+
 private:
     Node *head;
     Node *tail;

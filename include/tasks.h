@@ -87,7 +87,7 @@ uint8_t setBit(uint8_t number, int index, int valueOfBit);
 // zadanie 31
 //  odwroc c-string'a void reverse(char *c)
 
-void reverse(char *cstringArg);
+void reverseCString(char *cstringArg);
 
 // zadanie 41
 // Pomnóż dwie liczby, nie używając do tego znaku mnożenia!

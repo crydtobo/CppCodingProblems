@@ -17,6 +17,7 @@ CMakeFiles/CPPFreeCoding.dir/src/functions.cpp.o: src/functions.cpp
 CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.o: include/myArray.h
 CMakeFiles/CPPFreeCoding.dir/src/myArray.cpp.o: src/myArray.cpp
 
+CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.o: include/myLinkedList.h
 CMakeFiles/CPPFreeCoding.dir/src/myLinkedList.cpp.o: src/myLinkedList.cpp
 
 CMakeFiles/CPPFreeCoding.dir/src/myTree.cpp.o: include/myTree.h

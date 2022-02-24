@@ -109,7 +109,7 @@ uint8_t setBit(uint8_t number, int index, int valueOfBit)
 }
 
 // zadanie 29
-void reverse(char *cstringArg)
+void reverseCString(char *cstringArg)
 {
     int strLength = strlen(cstringArg);
     char *str = new char[strLength + 1];
